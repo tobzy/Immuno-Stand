@@ -1,0 +1,117 @@
+.login-page .welcome-block {
+    background-size: cover !important;
+    /*position: fixed;*/
+    left: 0;
+    width: 50%;
+    height: 100vh;
+    color: white;
+    background-color: #0092ff;
+    background: url(/img/angled_trans.svg), linear-gradient(to right, #1D58F5, #3B90F7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    box-sizing: border-box;
+    /*max-width: 700px;*/
+    /*margin: auto;*/
+    padding-right: 50px;
+}
+
+.login-page{
+    display: flex;
+    justify-content: flex-start;
+}
+.login-page h1{
+    color: white;
+}
+
+.login-page p{
+    line-height: 28px;
+    font-weight: 300;
+}
+.login-page .button{
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 8px 2px 8px 2px;
+    height: 40px;
+    font-size: 16px;
+    /* font-weight: 600; */
+    min-width: 115px;
+    /* padding: 13px 15px 0 15px; */
+    /* border: 1px solid #E7E9EB; */
+    cursor: pointer;
+    /*text-transform: uppercase;*/
+    color: #fff;
+    background: #3c88f7;
+    width: 300px;
+    font-weight: 800;
+}
+
+.login-section label{
+    color: #061027;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    width: 100%;
+    font-weight: 600;
+    margin-bottom: 7px;
+    display: inline-block;
+}
+.login-section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-section input{
+    display: block;
+    width: 100%;
+    height: 48px;
+    padding: 0 24px;
+    line-height: 1;
+    outline: 0;
+    -webkit-appearance: none;
+    background: #FFFFFF;
+    border: 1px solid rgba(155, 178, 204, 0.4);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #061027;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+.login-section form{
+    max-width: 400px;
+     margin: auto;
+    display: block;
+    /*margin-top: 40%;*/
+    padding-left: 60px;
+}
+.login-section .error{
+    font-size: 11px;
+    color: #ad3f3f;
+}
+
+@media screen and (max-width: 768px) {
+    .login-page{
+        flex-direction: column;
+    }
+    .login-page .welcome-block{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .login-page{
+        flex-direction: column;
+    }
+    .login-page .welcome-block{
+        width: 100%;
+    }
+    .login-page .button{
+        width: 200px;
+    }
+}

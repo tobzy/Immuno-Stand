@@ -1,0 +1,14 @@
+@media (max-width: 500px) {
+  .pagination-left, .pagination-right {
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .pagination-button {
+    border-left: 1px solid #eee;
+    padding: 15px;
+    padding-top: 9px;
+    padding-bottom: 11px;
+  }
+}

@@ -1,0 +1,30 @@
+.transactions-list-box{
+    border: 1px solid #ebedf0;
+    border-radius: 2px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    margin: 0 0 16px;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    padding: 30px;
+    background: white;
+}
+.fund button{
+    border-radius: 8px 2px 8px 2px;
+    height: 40px;
+    font-size: 11px;
+    /* font-weight: 600; */
+    min-width: 115px;
+    /* padding: 13px 15px 0 15px; */
+    /* border: 1px solid #E7E9EB; */
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+    background: #3c88f7;
+    width: 300px;
+    font-weight: 600;
+}
+.fund .form-group{
+    margin-bottom: 20px;
+}
